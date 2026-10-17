@@ -1,13 +1,14 @@
 # Obsidian PM
-
 用免费 Obsidian 插件搭的个人敏捷管理系统：**看板 + 卡片 + 时间日志**。
 A personal agile system built on free Obsidian plugins: **board + cards + time logging**.
 
 ## 为什么是自己搭 / Why build it
-
 现成的项目工具，要么按月付费，要么数据躺在别人服务器上。
 Obsidian 全是本地 Markdown——数据永远是你的；再叠上 **Dataview** 和 **Kanban** 两个免费插件，
 就能拿到接近 Jira 的体验，还不花一分钱。
+
+## 演示图片
+<img width="1920" height="780" alt="image" src="https://github.com/user-attachments/assets/cd41db2f-dede-4176-8b41-69b853748b82" />
 
 ## 能做到什么 / Features
 
@@ -22,7 +23,6 @@ Obsidian 全是本地 Markdown——数据永远是你的；再叠上 **Dataview
 | **手机零插件** | 手机上只编辑一个纯 Markdown 文件，回来点一下按钮就入账 |
 
 ## 快速开始 / Quick start
-
 1. 安装社区插件 **Dataview** 和 **Kanban**（都免费），并打开「社区插件」开关。
 2. 把本仓库下载成一个文件夹，用 Obsidian 以「打开文件夹作为库」的方式打开。
 3. 打开 `Boards/Main Board.md` → 它就会变成可拖拽的看板。
@@ -35,7 +35,6 @@ Obsidian 全是本地 Markdown——数据永远是你的；再叠上 **Dataview
 > 本仓库本身就是一个可直接打开的 Obsidian vault，链接全部是 vault 相对路径。
 
 ## 目录结构 / Layout
-
 ```text
 Boards/Main Board.md     卡片状态的唯一存放处
 Boards/PM Tools.md       批量操作面板（生成 / 同步 / 手机速记处理）
@@ -48,10 +47,8 @@ Meta/README.md           完整系统手册
 ```
 
 ## 说明 / Notes
-
 - `Views/taskido/` 来自社区的 Taskido Timeline Dataview view，非本项目原创。
 - 卡片的「详细文档」支持 vault 内 `[[链接]]`，也支持 vault 外 `[路径](<file:///...>)`。
 
 ## License
-
 [MIT](LICENSE)
