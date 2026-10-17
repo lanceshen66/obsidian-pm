@@ -29,6 +29,8 @@ Obsidian 全是本地 Markdown——数据永远是你的；再叠上 **Dataview
 4. 卡片点进去是它在 `Cards/` 下的笔记页；状态只在看板上改。
 5. 记时长用 `Views/Log Time.md`（每张卡页顶部也有入口）。
 6. 批量操作（生成卡片、重建、双向同步）都在 `Boards/PM Tools.md`。
+7. （可选）想让卡片纵向排列：把 `.obsidian/snippets/pm-kanban-vertical.css` 复制到自己 vault 的
+   `.obsidian/snippets/`，再到 设置 → 外观 → CSS 代码片段 里启用 `pm-kanban-vertical`。
 
 > 本仓库本身就是一个可直接打开的 Obsidian vault，链接全部是 vault 相对路径。
 
