@@ -1,0 +1,23 @@
+/* 一级标题稍大加粗 */
+.outline .tree-item[data-level="1"] .tree-item-inner {
+  font-size: 16px !important;
+  font-weight: 600;
+}
+/* 二级标题中等 */
+.outline .tree-item[data-level="2"] .tree-item-inner {
+  font-size: 15px !important;
+}
+/* 三级及以下稍小 */
+.outline .tree-item[data-level="3"] .tree-item-inner {
+  font-size: 14px !important;
+}
+/* 左侧大纲字体调大 */
+.outline .tree-item-inner {
+  font-size: 15px !important; /* 改这里，14～18px 都行 */
+  line-height: 1.4;
+}
+
+/* 侧边栏整体（含大纲）字号 */
+body {
+  --nav-item-size: 15px;
+}

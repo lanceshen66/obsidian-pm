@@ -1,0 +1,11 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "root",
+  "newFileFolderPath": "",
+  "attachmentFolderPath": "Attachments",
+  "promptDelete": false,
+  "foldIndent": true,
+  "rightToLeft": false,
+  "readableLineLength": false,
+  "livePreview": true
+}

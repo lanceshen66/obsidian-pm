@@ -1,0 +1,5 @@
+{
+  "enableDataviewJs": true,
+  "enableInlineDataviewJs": true,
+  "prettyRenderInlineFields": true
+}
